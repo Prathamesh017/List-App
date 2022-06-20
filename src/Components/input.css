@@ -1,0 +1,46 @@
+.center-container{
+    width: 100vw;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-header{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+input{
+    width: 100%;
+    padding: 0.5em 0em;
+}
+.selectList{
+    width: 100%;
+    padding: 0.5em 0em;
+}
+
+.center-container>*{
+    margin-bottom: 1.2em;
+}
+.addBtn{
+    background-color:#63c5Da;
+    width: 100%;
+    padding: 0.5em 0em;
+    border: none;
+    font-size: 2rem;
+    color:white;
+}
+
+.addBtn:hover{
+    color:black;
+    cursor: pointer;
+}
+
+
+
+@media  (max-width:800px) {
+    .addBtn{
+        font-size: 1.5rem;
+    }
+}
